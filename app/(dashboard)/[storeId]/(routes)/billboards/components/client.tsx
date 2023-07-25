@@ -29,7 +29,7 @@ export const BillBoardsClient: React.FC<BillboardClientProps> = ({ data }) => {
         </Button>
       </div>
       <Separator />
-      <DataTable columns={columns} data={data} />
+      <DataTable columns={columns} data={data} searchKey="label" />
     </>
   );
 };
